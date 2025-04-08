@@ -73,10 +73,12 @@ export default function Home() {
 
         <h1 className="text-4xl font-bold mb-8 text-center">Biblioteca de Planilhas de Respostas</h1>
 
-        <div className="flex bg-zinc-800/50 text-zinc-200 border-zinc-700 mb-8 p-6 rounded-lg">
-          <AlertCircle className="w-6 h-6 mr-2" />
-          As planilhas estão organizadas em grupos de duas à três disciplinas, no qual são
-          apresentadas trimestralmente.
+        <div className="flex flex-col sm:flex-row bg-zinc-800/50 text-zinc-200 border-zinc-700 mb-8 p-4 sm:p-6 rounded-lg text-center justify-center items-center sm:text-left sm:justify-start sm:items-start">
+          <AlertCircle className="w-5 h-5 mt-1 mb-2 sm:mb-0 sm:mr-3 flex-shrink-0 text-zinc-300" />
+          <p className="text-sm sm:text-base">
+            As planilhas estão organizadas em grupos de duas à três disciplinas, no qual são
+            apresentadas trimestralmente.
+          </p>
         </div>
 
         <Table>
@@ -129,7 +131,7 @@ export default function Home() {
         </div>
 
         <div className="flex items-start mt-6 bg-zinc-800/50 p-4 rounded-md ">
-          <ChevronRight className="w-6 h-6 mt-0.5 mr-3 text-green-400 flex-shrink-0" />
+          <ChevronRight className="w-6 h-6 mt-0.5 mr-3 text-blue-400 flex-shrink-0" />
           <p className="text-zinc-200">
             As planilhas de respostas servem tanto para as Atividades Avaliativas 1, 2 e 3 e a Prova Institucional.
           </p>
@@ -138,7 +140,7 @@ export default function Home() {
         <div className="flex flex-col mt-4">
           <div className="flex flex-col items-start bg-zinc-800/50 p-4 rounded-md">
             <div className="flex w-full mb-4">
-              <ChevronRight className="w-6 h-6 mt-0.5 mr-3 text-green-400 flex-shrink-0" />
+              <ChevronRight className="w-6 h-6 mt-0.5 mr-3 text-blue-400 flex-shrink-0" />
               <p className="text-zinc-200">
                 Dentro da planilha, as questões são divididas em suas devidas pastas como é mostrado abaixo.
               </p>
@@ -153,7 +155,7 @@ export default function Home() {
         </div>
 
         <div className="flex items-start mt-4 bg-zinc-800/50 p-4 rounded-md">
-          <ChevronRight className="w-6 h-6 mt-0.5 mr-3 text-green-400 flex-shrink-0" />
+          <ChevronRight className="w-6 h-6 mt-0.5 mr-3 text-blue-400 flex-shrink-0" />
           <p className="text-zinc-200">
             <strong>Importante:</strong> Apenas as respostas que contém fundo <span className="text-green-400">verde</span> e estão em <em>itálico</em> são respostas confirmadas com Gabarito, as demais considerar apenas como possíveis respostas.
           </p>
