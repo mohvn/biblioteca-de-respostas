@@ -128,7 +128,7 @@ export default function Home() {
           <h1 className="text-4xl font-bold text-zinc-200">FAQ</h1>
         </div>
 
-        <div className="flex items-start mt-6 bg-zinc-800/30 p-4 rounded-md border border-zinc-700/50">
+        <div className="flex items-start mt-6 bg-zinc-800/50 p-4 rounded-md ">
           <ChevronRight className="w-6 h-6 mt-0.5 mr-3 text-green-400 flex-shrink-0" />
           <p className="text-zinc-200">
             As planilhas de respostas servem tanto para as Atividades Avaliativas 1, 2 e 3 e a Prova Institucional.
@@ -136,7 +136,7 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col mt-4">
-          <div className="flex flex-col items-start bg-zinc-800/30 p-4 rounded-md border border-zinc-700/50">
+          <div className="flex flex-col items-start bg-zinc-800/50 p-4 rounded-md">
             <div className="flex w-full mb-4">
               <ChevronRight className="w-6 h-6 mt-0.5 mr-3 text-green-400 flex-shrink-0" />
               <p className="text-zinc-200">
@@ -152,7 +152,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex items-start mt-4 bg-zinc-800/30 p-4 rounded-md border border-zinc-700/50">
+        <div className="flex items-start mt-4 bg-zinc-800/50 p-4 rounded-md">
           <ChevronRight className="w-6 h-6 mt-0.5 mr-3 text-green-400 flex-shrink-0" />
           <p className="text-zinc-200">
             <strong>Importante:</strong> Apenas as respostas que contém fundo <span className="text-green-400">verde</span> e estão em <em>itálico</em> são respostas confirmadas com Gabarito, as demais considerar apenas como possíveis respostas.
