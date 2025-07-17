@@ -73,6 +73,13 @@ export default function Home() {
 
         <h1 className="text-4xl font-bold mb-8 text-center">Biblioteca de Planilhas de Respostas</h1>
 
+        <div className="flex flex-col sm:flex-row bg-yellow-900/80 text-yellow-100 border border-yellow-700 mb-6 p-4 sm:p-6 rounded-lg text-center justify-center items-center sm:text-left sm:justify-start sm:items-start">
+          <InfoIcon className="w-5 h-5 mt-1 mb-2 sm:mb-0 sm:mr-3 flex-shrink-0 text-yellow-300" />
+          <p className="text-sm sm:text-base">
+            <strong>Aviso importante:</strong> As planilhas desta biblioteca deixarão de ser atualizadas ao <strong>final de 2025</strong>, por conta dos atuais mantenedores concluírem sua graduação e, não terem encontrado um sucessor para dar continuidade ao projeto. Agradecemos imensamente a colaboração e o apoio de todos que contribuíram para o sucesso desta iniciativa ao longo desses anos.
+          </p>
+        </div>
+
         <div className="flex flex-col sm:flex-row bg-zinc-800/50 text-zinc-200 border-zinc-700 mb-8 p-4 sm:p-6 rounded-lg text-center justify-center items-center sm:text-left sm:justify-start sm:items-start">
           <AlertCircle className="w-5 h-5 mt-1 mb-2 sm:mb-0 sm:mr-3 flex-shrink-0 text-zinc-300" />
           <p className="text-sm sm:text-base">
@@ -147,7 +154,7 @@ export default function Home() {
             </div>
 
             <img
-              src="https://img.notionusercontent.com/s3/prod-files-secure%2F59c12550-484b-4f26-902a-c2b6ab6ca52e%2Fe3f6eeb2-51a6-432a-b263-6b438b014031%2FDesign_sem_nome.png/size=w=1860?exp=1744241282&sig=wOXJlBvx6BUCW9UK8rFrYJjFkf1-fKEf6-oQD_TJst4&id=1cf83eb3-99b5-81ec-a1d0-cf855f1a3cb1&table=block&userId=bb80b431-7c4a-428d-95c3-64b58d90b43e"
+              src="/images/pastas.png"
               alt="Organização de pastas na planilha"
               className="rounded-lg shadow-lg border border-zinc-700/50 w-full mx-auto"
             />
